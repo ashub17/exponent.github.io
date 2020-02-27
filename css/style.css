@@ -39,7 +39,6 @@ p {
   font-size: 32px;
   color: #232323;
   display: inline-block;
-  margin-right: 50px;
   border-bottom: 2px solid #3b5998;
   
 }
@@ -173,7 +172,7 @@ header {
   float: left;
   height: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 50, 0.7);
+  background-color: rgba(0, 0, 50, 0.4);
   z-index: 10;
 }
 
@@ -573,15 +572,6 @@ nav .active-section span {
 #aboutus p{
   text-align: justify;
 }
-/* .aboutpart {
-  margin-top:10px;
-	border: #000 medium solid;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	background-color:#c5c5c5;
-
-} */
 
 #products {
   padding-left: 60px;
@@ -792,6 +782,9 @@ nav .active-section span {
 #contact img{
   padding-top: 50px;
 }
+#contact .col-md-6 {
+  margin-bottom: 30px;
+}
 
 .footer {
   margin-top: 2px;
@@ -898,12 +891,9 @@ nav .active-section span {
     padding-left: 15px;
     padding-right: 15px;
   }
-
-  #aboutus .owl-nav {
-    position: absolute;
-    display: inline-block;
-    top: -220px;
-    right: 0;
+  
+  #aboutus .col-md-4 {
+    margin-bottom: 25px;
   }
 
   #products {
